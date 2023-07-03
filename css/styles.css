@@ -447,3 +447,13 @@
     pointer-events: auto;
   }
   
+
+  .section-icon-bg{
+      background-color: #F4F4FD;
+      width: 264px;
+      height: 112px;
+  }
+
+  .icon{
+
+  }
