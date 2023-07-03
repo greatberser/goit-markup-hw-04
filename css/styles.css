@@ -449,11 +449,35 @@
   
 
   .section-icon-bg{
-      background-color: #F4F4FD;
-      width: 264px;
-      height: 112px;
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+
+    margin-bottom: 8px;
+
+    display: flex;
+    justify-content: center;
   }
 
-  .icon{
+  .section-icon-bg .icon{
+    margin: 24px 0;
+  }
 
+  .list-svg{
+    width: 232px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .item-svg{
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+
+    margin-bottom: 32px;
+    padding: 12px;
+
+    border-radius: 100%;
   }
