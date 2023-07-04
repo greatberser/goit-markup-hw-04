@@ -263,6 +263,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    margin-bottom: 72px;
   }
 
   .text-container .title-description{
@@ -343,7 +344,6 @@
     padding-top: 0;
   }
 
-
   .section-list{
     display: flex;
     gap: 24px;
@@ -352,10 +352,6 @@
 
   .section-list-item{
     flex-basis: 264px;
-  }
-
-  .title-section{
-    margin-bottom: 72px;
   }
   
   .section-portfolio.section{
