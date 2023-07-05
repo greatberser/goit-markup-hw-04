@@ -136,24 +136,7 @@
     padding: 24px 0;
   }
 
-  /* Active-pages */
-
-  .active{
-    position: relative;
-    margin-bottom: 20px;
-  }
-
-  .active::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: #404BBF;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    border-radius: 2px;
-  }
+  
   
 
   .nav-item.link:hover,
@@ -239,6 +222,25 @@
     background-size: cover;
   }
 
+  /* Active-pages */
+
+  .active{
+    position: relative;
+    margin-bottom: 20px;
+    color: #404bbf !important; 
+  }
+
+  .active::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #404BBF;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    border-radius: 2px;
+  }
 
   .title {
     color: #ffffff;
