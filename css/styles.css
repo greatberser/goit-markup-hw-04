@@ -458,11 +458,13 @@
     background-color: #F4F4FD;
     width: 264px;
     height: 112px;
+    border-radius: 4px;
 
     margin-bottom: 8px;
 
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .section-icon-bg .icon{
