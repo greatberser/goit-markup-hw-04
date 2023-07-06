@@ -434,25 +434,46 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
+
   .close-button {
-    position: relative;
+    position: absolute;
     top: 24px;
-    left: 360px;
+    right: 24px;
+    padding: 0;
+
     width: 24px;
     height: 24px;
-    border-radius: 24px;
+    border-radius: 50%;
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.10);
+
     font-size: 20px;
     cursor: pointer;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .close-button:hover {
-    background-color: #eee;
+  .close-button .modal-icon{
+    fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);;
   }
+
+  .close-button:hover,
+  .close-button:focus {
+    background-color: #404BBF;
+    border: none;
+  }
+
+  .close-button:hover .modal-icon,
+  .close-button:focus .modal-icon {
+    fill: #ffffff;
+  }
+
+
+  
 
   .is-hidden {
     visibility: hidden;
