@@ -415,16 +415,23 @@
     justify-content: center;
     padding-top: 80px;
     visibility: hidden;
+    z-index: 10;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s, visibility 0.3s;
-  }
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);  }
   
   .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 10;
     background-color: #FCFCFC;
     width: 408px;
-    height: 584px;
+    min-height: 584px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .close-button {
