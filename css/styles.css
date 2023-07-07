@@ -535,8 +535,16 @@
     align-items: center;
   }
 
+  .team .item-svg-link:hover,
+  .team .item-svg-link:focus{
+    background-color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
   .icon, .item-svg-link {
-    fill: #000; 
+    fill: #F4F4FD; 
   }
 
   .item-svg:hover,
