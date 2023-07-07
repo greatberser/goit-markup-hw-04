@@ -564,20 +564,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
+    color: #8E8F99;
     border-radius: 4px;
     padding: 16px 32px;
     box-sizing: border-box;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .item-border .icon{
-    fill: #8E8F99;
+    fill: currentColor;
   }
 
-  .item-border:hover{
+  .item-border:hover,
+  .item-border:focus {
     border-color: #404BBF;
+    color: #404BBF;
   }
 
   .item-border:hover .icon,
