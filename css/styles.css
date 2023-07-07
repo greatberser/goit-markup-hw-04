@@ -511,9 +511,9 @@
 
   .list-svg{
     width: 232px;
-    margin: 0 auto;
+    margin: 32px auto 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
   }
 
@@ -521,9 +521,7 @@
 
   .item-svg{
     width: 40px;
-    height: 40px;
-
-    margin-top: 32px;
+    height: 40px;;
   }
 
   .team .item-svg-link{
@@ -535,7 +533,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
 
+  .item-svg-link{
+    fill: #f4f4fd;
   }
 
   .item-svg:hover,
