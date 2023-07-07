@@ -535,8 +535,8 @@
     align-items: center;
   }
 
-  .item-svg-link{
-    fill: #f4f4fd;
+  .icon, .item-svg-link {
+    fill: #000; 
   }
 
   .item-svg:hover,
