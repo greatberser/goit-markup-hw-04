@@ -660,12 +660,14 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-button
-
 .list-category-item:first-child{
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay:hover .overlay-text{
+  transform: translateY(0%);
+}
+
+.list-category-item .link:hover .overlay-text {
   transform: translateY(0%);
 }
