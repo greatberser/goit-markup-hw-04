@@ -668,6 +668,3 @@
   transform: translateY(0%);
 }
 
-.list-category-item .link:hover .overlay-text {
-  transform: translateY(0%);
-}
