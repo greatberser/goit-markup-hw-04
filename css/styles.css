@@ -414,19 +414,17 @@
     position: fixed;
     top: 0;
     left: 0;
-
-    height: 100%;
     width: 100%;
-    background-color: rgba(46, 47, 66, 0.40);
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-    visibility: hidden;
-    z-index: 10;
+  .is-hidden {
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);  
   }
   
   .modal {
@@ -479,14 +477,6 @@
   .close-button:hover .modal-icon,
   .close-button:focus .modal-icon {
     fill: #ffffff;
-  }
-
-
-  
-
-  .is-hidden {
-    visibility: hidden;
-    opacity: 0;
   }
   
   .backdrop:not(.is-hidden) {
