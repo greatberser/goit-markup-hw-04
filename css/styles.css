@@ -54,7 +54,6 @@
 
     margin: 0 auto;
     padding: 0 15px;
-    box-sizing: border-box;
   }
 
   .text-container{
@@ -68,7 +67,6 @@
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    box-sizing: border-box;
   }
 
   .nav{
@@ -545,7 +543,6 @@
     color: #8E8F99;
     border-radius: 4px;
     padding: 16px 32px;
-    box-sizing: border-box;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
