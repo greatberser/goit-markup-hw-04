@@ -638,10 +638,9 @@
     overflow: hidden;
 }
 
-.list-category-item .link{
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.list-category-item .link {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .app-container {
     position: relative;
     z-index: 1;
